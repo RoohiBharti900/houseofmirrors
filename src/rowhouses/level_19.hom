@@ -1,0 +1,26 @@
+<houseofmirrors>
+    <description>
+        Level 20.
+    </description>
+    <bounds width="10" height="10"></bounds>
+    <fixedGates>
+        <Detector green="unwanted" red="unwanted" blue="required" y="9" x="0"></Detector>
+        <Detector green="unwanted" red="unwanted" blue="required" y="8" x="5"></Detector>
+        <Detector green="unwanted" red="unwanted" blue="required" y="1" x="8"></Detector>
+        <Detector green="unwanted" red="required" blue="unwanted" y="0" x="9"></Detector>
+        <Detector green="unwanted" red="required" blue="unwanted" y="1" x="1"></Detector>
+        <Detector green="unwanted" red="required" blue="unwanted" y="5" x="7"></Detector>
+        <Source color="red" direction="e" y="6" x="3"></Source>
+        <Source color="blue" direction="sw" y="1" x="2"></Source>
+        <WormHole x2="8" y2="4" x1="1" y1="3"></WormHole>
+    </fixedGates>
+    <moveableGates>
+        <Mirror direction="s" y="8" x="0"></Mirror>
+        <PartialMirror direction="wn" y="9" x="1"></PartialMirror>
+        <CrossMirror direction="ne" y="4" x="4"></CrossMirror>
+        <CrossMirror direction="ne" y="2" x="4"></CrossMirror>
+        <CrossMirror direction="ne" y="3" x="5"></CrossMirror>
+        <CrossMirror direction="ne" y="3" x="3"></CrossMirror>
+        <CrossMirror direction="ne" y="3" x="4"></CrossMirror>
+    </moveableGates>
+</houseofmirrors>
